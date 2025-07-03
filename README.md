@@ -5,3 +5,29 @@ This project focuses on the **automatic classification of immune cells** in **br
 ---
 
 ## Project Structure
+
+```python
+immune-cell-classification/
+│
+├── tools/ # Python scripts for training, evaluation, inference
+│ ├── train.py
+│ ├── eval.py
+│ └── infer.py
+│
+├── experiments/ # YAML config files for different training runs
+│ ├── exp1.yaml
+│ ├── exp2.yaml
+│ └── ...
+│
+├── scripts/ # Shell scripts for cluster or local execution
+│ ├── run_train.sh
+│ └── run_infer.sh
+│
+├── models/ # (Optional) Trained weights and architecture code
+│
+├── data/ # (Optional) Data loading or augmentation utilities
+│
+├── README.md # Project documentation (this file)
+├── requirements.txt # Python dependencies
+```
+
