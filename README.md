@@ -31,3 +31,39 @@ immune-cell-classification/
 ├── requirements.txt # Python dependencies
 ```
 
+---
+
+## Installation
+
+> Requires Python 3.8+, PyTorch, and OpenCV
+
+```bash
+# Clone this repository
+git clone https://github.com/your-username/my-yolo-bal-project.git
+cd my-yolo-bal-project
+
+# Create and activate virtual environment
+python -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+---
+
+## Download pretrained models
+
+Download weights:
+
+### YOLOv12 models
+
+| Model   | Download Link                                                                                     |
+|---------|-------------------------------------------------------------------------------------------------|
+| [Nano](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo12n.pt)      | `wget https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo12n.pt`      |
+| [Small](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo12s.pt)     | `wget https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo12s.pt`      |
+| [Medium](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov12m.pt)   | `wget https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov12m.pt`     |
+| [Large](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov12l.pt)    | `wget https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov12l.pt`     |
+| [X-Large](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov12x.pt)  | `wget https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov12x.pt`     |
+
+
