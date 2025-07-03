@@ -66,4 +66,29 @@ Download weights:
 | [Large](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov12l.pt)    | `wget https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov12l.pt`     |
 | [X-Large](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov12x.pt)  | `wget https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov12x.pt`     |
 
+---
+
+## Data Preparation
+
+When the annotations are segmentation masks, they need to be transformed:
+
+```bash
+python tools/data_preparation.py
+```
+
+This will:
+
+- Read masks
+- Convert to YOLO bounding box format
+- Save .txt files in this structure:
+
+```python
+data/
+├── train/
+│ ├── images/
+│ └── labels/
+├── val/
+│ ├── images/
+│ └── labels/
+```
 
