@@ -61,7 +61,7 @@ Example SLURM directives to include in your script:
 
 | File               | Description                          |
 | ------------------ | ------------------------------------ |
-| `run_train.sh`     | SLURM script to train the YOLO model |
+| `run_training.sh`  | SLURM script to train the YOLO model |
 | `run_inference.sh` | SLURM script to run inference        |
 
 Logs from job executions can optionally be saved in a logs/ folder.
