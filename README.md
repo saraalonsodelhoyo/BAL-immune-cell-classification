@@ -120,11 +120,11 @@ These were used as the starting point for training:
 
 | Model Variant | Download Command |
 |---------------|------------------|
-| Nano          | `wget https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo12n.pt` |
-| Small         | `wget https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo12s.pt` |
-| Medium        | `wget https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov12m.pt` |
-| Large         | `wget https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov12l.pt` |
-| X-Large       | `wget https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov12x.pt` |
+| [Nano](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo12n.pt)          | `wget https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo12n.pt` |
+| [Small](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo12s.pt)         | `wget https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo12s.pt` |
+| [Medium](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo12m.pt)        | `wget https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov12m.pt` |
+| [Large](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo12l.pt)         | `wget https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov12l.pt` |
+| [X-Large](https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo12x.pt)       | `wget https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov12x.pt` |
 
 ---
 
