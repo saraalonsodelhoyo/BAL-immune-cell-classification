@@ -5,3 +5,11 @@
 __pycache__/
 venv/
 .env
+*.pt
+*.pth
+*.ckpt
+*.log
+__pycache__/
+venv/
+.env
+bfg.jar

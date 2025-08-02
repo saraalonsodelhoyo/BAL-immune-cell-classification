@@ -39,7 +39,6 @@ BAL-immune-cell-classification/
 │   └── README.md             # Explanation of SLURM usage
 ```
 
-
 ---
 
 ## Project Overview
